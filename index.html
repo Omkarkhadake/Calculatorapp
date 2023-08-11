@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+        <div class="container">
+            <h4 class="heading">Calc</h4>
+            <input type="text"   class="Display" style="display: flex; align-items: center; justify-content: end;"/>
+        </div>
+
+        <div class="keyboard">
+            <div class="keyborad-btn">
+
+                <div class="keyboard-btn-first-line">
+                    <button class="btn" data-num="7">7</button>
+                    <button class="btn" data-num="8">8</button>
+                    <button class="btn" data-num="9">9</button>
+                    <button class="btn" id="del-btn" onclick="deletevalue()" >DEL</button>
+                </div>
+
+                <div class="keyboard-btn-second-line">
+                    <button class="btn" data-num="4">4</button>
+                    <button class="btn" data-num="5">5</button>
+                    <button class="btn" data-num="6">6</button>
+                    <button class="btn addition"  data-num="+">+</button>
+                </div>
+
+                <div class="keyboard-btn-thirded-line">
+                    <button class="btn" data-num="1">1</button>
+                    <button class="btn" data-num="2">2</button>
+                    <button class="btn" data-num="3">3</button>
+                    <button class="btn" data-num="-">-</button>
+                </div>
+
+                <div class="keyboard-btn-fourth-line">
+                    <button class="btn" data-num=".">.</button>
+                    <button class="btn" data-num="0">0</button>
+                    <button class="btn" data-num="/">/</button>
+                    <button class="btn" data-num="*">x</button>
+                </div>
+
+                <div class="keyboard-btn-fifth-line">
+                    <button class="btn btn-last reset-btn">RESET</button>
+                    <button class="btn btn-last equalto-btn" >=</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

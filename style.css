@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper h4{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.wrapper{
+    background-color: #3B4664;
+    width: 100vw;
+    height: 100vh;
+}
+.keyboard{
+    background-color: #252D44;
+    height: 330px;
+    width: 350px;
+    border-radius: 10px;
+}
+.container .Display{
+    width: 350px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #181F32;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+input::placeholder , .Display{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: end;
+}
+
+.keyborad-btn{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    background-color: #EAE3DB;
+    font-weight: 600;
+    font-size: 15px;
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#del-btn{
+    background-color: #647299;
+    color: #FFFFFF;
+}
+.keyboard-btn-fifth-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+#reset-btn{
+    background-color: #647299;
+    color: #FFFFFF;
+    text-align: center;
+}
+#equalto-btn{
+    background-color: #D13F30;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.btn-last{
+    font-weight: 600;
+    font-size: 15px;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
